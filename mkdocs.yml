@@ -1,0 +1,20 @@
+site_name: Impressão 3D
+site_url: 
+site_author: Valdecir Carvalho
+site_description: "Dicas e Truques sobre impressão 3d"
+copyright: "Copyright"
+
+theme:
+  name: null
+  custom_dir: cinder
+  colorscheme: github
+  highlightjs: true
+
+nav:
+  - Home: index.md
+  - Specimen: specimen.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
